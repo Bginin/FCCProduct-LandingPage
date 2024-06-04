@@ -1,0 +1,218 @@
+body {
+background-color: #e1dee4;
+}
+.average-regular {
+    font-family: "Average", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .container-all {
+    width: 100vw;
+  }
+  .navigation {
+    width: 100%;
+    background-color: #e1dee4;
+  }
+ 
+.logo-container {
+   display: flex;
+   justify-content: center;
+}
+.item-img {
+    padding-top: 5px;
+   margin-right: 20px;
+}
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: right;
+    margin-top: 50px;
+}
+.nav-link {
+     margin-top: 3rem;
+    text-decoration: none;
+    color: black
+}
+.form-heading {
+    margin-top: px;
+    font-style: oblique;
+    text-align: center;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 70vw;
+    margin: 0 auto;
+        width: 290px;
+        justify-content: center;
+        text-align: center;    
+}
+.container-button {
+    text-align: center;
+    padding-top: 1rem;
+}
+.text-field {
+    
+    height: 20px;
+    border-radius: 5%;
+}
+.button-form {
+    width: 150px;
+    height: 35px;
+    background-color: #ff9d00;
+    border-radius: 5px;
+}
+.container-sales {
+text-align: center;
+}
+.sales-pitch {
+    margin-bottom: 1px;
+}
+.sales-text {
+    margin: 0 ;
+}
+.sales1::before {
+    content:url(Img/fire.svg);
+    margin-right: 1rem;
+    
+}
+.sales2::before {
+    content:url(Img/battery-charging.svg);
+    margin-right: 1rem;
+    
+}
+.sales3::before {
+    content:url(Img/truck.svg);
+    margin-right: 1rem;
+}
+.margin {
+    margin-top: 0.2rem;
+}
+.container-video {
+    display: flex;
+    justify-content: center;
+}
+video {
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+.container-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box1, .box2, .box3 {
+    border: 1px solid black;
+    margin: 1rem auto;
+    text-align: center;
+    height: 350px;
+    width: 300px;
+}
+.header-box {
+    background-color: rgb(164, 164, 157);
+    padding: 1rem 1rem;
+    margin-top: 0;
+    text-align: center;
+}
+.btn {
+    text-align: center;
+    background-color: rgb(210, 161, 71);
+    margin-top: 25px;
+    width: 120px;
+    height: 40px;
+}
+footer {
+    text-align: right;
+    margin: 3rem -0.5rem -0.7rem -0.5rem;
+    background-color: grey;
+    padding: 1rem 1rem 5px 1rem;
+}
+span {
+    padding-left: 1rem;
+}
+.container-span {
+    padding-left: 1rem;
+    
+}
+
+/* --------------  Media Query -------------------- */
+
+
+@media (min-width: 550px){
+    .form-container {
+         width: 290px;
+        justify-content: center;
+        text-align: center;
+    }
+    .sales-text {
+        margin-top: 5px;
+        margin-left: 33px;
+    }
+}
+@media (min-width: 694px) {
+
+.navigation {
+    display: flex ;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.nav-bar { 
+    display: inline;
+    padding-right: 40px;
+    margin-top: 20px;
+}
+.nav-link {
+    padding-left: 4rem;
+}
+.text-field {
+    width: 300px;
+    height: 20px;
+    border-radius: 5%;
+}
+.container-sales {
+    text-align: left;
+    padding-left: 40px;
+}
+
+video {
+    width: 600px;
+    margin-top: 2rem;
+}
+.container-boxes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+.box1, .box2, .box3 {
+    height: 350px;
+    width: 300px;
+}
+.header-box {
+    padding: 2rem 4rem;
+}
+
+.btn {
+    
+    margin-top: 1px;
+}
+}
+
+
+@media  (min-width:1128px) {
+    .container-all {
+        width: 70vw;
+        margin: auto;
+    }
+
+}
+    
+
+
+
+
+
+
+   
